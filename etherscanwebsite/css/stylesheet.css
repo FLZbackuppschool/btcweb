@@ -1,0 +1,30 @@
+/*style on */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(6, 20, 32, 1) 10%, rgba(0, 0, 0, 1) 67%, rgb(67, 3, 41) 100%);
+    margin: 30px;
+}
+/*hover efect on the searchbtn */
+.btn-outline-success:hover {
+    background: linear-gradient(90deg, rgba(6, 20, 32, 1) 10%, rgba(0, 0, 0, 1) 67%, rgb(67, 3, 41) 100%);
+    color: aqua;
+}
+/*clock container*/
+.container-fluid2{
+    background: white
+}
+
+/* Media Query for smaller screens such as phone, tablets and devices with smaler screen that laptops*/
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+        table {
+            width: 100%;
+            overflow-x: auto;
+            display: block;
+        }
+    }
+
